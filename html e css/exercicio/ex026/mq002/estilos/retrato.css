@@ -1,1 +1,9 @@
 @charset "UTF-8";
+
+/*Aparelho deitado (retrato)*/
+
+body {
+    background-image: url(../img/cev-portrait.jpg);
+    
+
+}
