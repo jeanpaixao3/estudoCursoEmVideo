@@ -21,19 +21,23 @@ i#burguer {
     text-align: center;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 i#burguer:hover {
+    background-color: rgb(148, 143, 143);
     
 }
 
 header h1 {
-    padding: 10px;
+    padding: 30px;
     text-align: center;
+    font-size: 2em;
 }
 
 menu {
     display: none;
+    
 }
 
 menu > ul {
@@ -60,9 +64,9 @@ main {
     background-color: white;
     margin: auto;
     margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.466);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
 }
 
 article > h2 {
@@ -71,7 +75,7 @@ article > h2 {
 }
 
 article > p {
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
     text-indent: 20px;
 }
